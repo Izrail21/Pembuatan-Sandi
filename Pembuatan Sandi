@@ -1,0 +1,11 @@
+#Pembuatan sandi
+count = 3
+sandi = "Izrail"
+while count > 0 :
+    pswd = input("Masukkan Sandi : ")
+    if pswd == sandi :
+        print("Login berhasil")
+        break
+    else :
+        print("Sandi salah")
+        count = count-1
